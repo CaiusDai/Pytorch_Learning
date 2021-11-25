@@ -49,6 +49,6 @@ class NeuralNetworkQ3(nn.Module):
         return out
 
 net=NeuralNetworkQ3().to(device)
-
+print('test')
 
 iteration=50
